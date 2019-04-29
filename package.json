@@ -1,0 +1,25 @@
+{
+  "name": "gruntDaan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaanEKR/grunt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaanEKR/grunt/issues"
+  },
+  "homepage": "https://github.com/DaanEKR/grunt#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^2.1.0",
+    "load-grunt-config": "^1.0.1"
+  }
+}
