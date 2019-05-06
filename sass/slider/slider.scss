@@ -1,0 +1,29 @@
+.slideshow{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #bfbfbf;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.slider{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 15px;
+
+    &__item{
+        display: flex;
+        background-color: #ffffff;
+        width: 70px;
+        height: 70px;
+
+        &--grey{
+            display: flex;
+            background-color: #eeeeee;
+            width: 70px;
+            height: 70px;
+        }
+    }
+}

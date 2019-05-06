@@ -1,0 +1,33 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 400px;
+    background-color: #8b8b8b;
+    color: #ffffff;
+
+    &--left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 34%;
+        height: 400px;
+        background-color: #464646;
+        color: #ffffff;
+    }
+
+    &--right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 34%;
+        height: 400px;
+        background-color: #bfbfbf;
+        color: #ffffff;
+    }
+}
